@@ -4,10 +4,9 @@ public class Funciones {
     public static void main(String[] args) {
 
         holaMundo();
-        holaNombre("Juan");
+        holaNombre("Juan", 18);
         String hola = devolverHola();
         System.out.println(hola);
-        System.out.println("pan");
 
     }
 
@@ -15,9 +14,9 @@ public class Funciones {
         System.out.println("Hola mundo");
     }
 
-    private static void holaNombre(String name) {
+    private static void holaNombre(String name, int edad) {
         System.out.println("Hola " + name);
-        System.out.println("Como estas ?");
+        System.out.println("Tu edad es " + edad);
     }
 
     private static String devolverHola(){
