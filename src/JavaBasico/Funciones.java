@@ -7,6 +7,7 @@ public class Funciones {
         holaNombre("Juan");
         String hola = devolverHola();
         System.out.println(hola);
+        System.out.println("pan");
 
     }
 
