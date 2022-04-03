@@ -15,5 +15,21 @@ public class Condicionales {
             System.out.println("elseIf");
         }
 
+        String weather = "sunny";
+
+        switch (weather){
+            case "sunny":
+                System.out.println("El tiempo es soleado");
+                break;
+
+            case "cloudy":
+                System.out.println("El tiempo es nublado");
+                break;
+
+            default:
+                System.out.println("No se ha podido encontrar este clima");
+                break;
+        }
+
     }
 }
